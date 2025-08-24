@@ -8,7 +8,7 @@ const properties = [
     details: '5 Beds | 6 Baths | 7,500 sqft',
     status: 'For Sale',
     image: {
-      src: 'https://placehold.co/600x400.png',
+      src: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxlc3RhdGV8ZW58MHx8fHwxNzU2MDYyMDI4fDA&ixlib=rb-4.1.0&q=80&w=1080',
       hint: 'luxury villa exterior'
     }
   },
