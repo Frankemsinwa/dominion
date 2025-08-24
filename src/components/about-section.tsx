@@ -17,11 +17,11 @@ export function AboutSection() {
           </div>
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Global Dominion Realty</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Dominion Global Estate</h2>
               <p className="text-primary/80 font-semibold font-headline">Our Story & Mission</p>
             </div>
             <p className="max-w-prose text-foreground/80 md:text-xl/relaxed font-body">
-              Founded on the principles of integrity, expertise, and unparalleled service, Global Dominion Realty has been a beacon in the luxury real estate market for over two decades. We are dedicated to connecting discerning clients with the world's most exceptional properties.
+              Founded on the principles of integrity, expertise, and unparalleled service, Dominion Global Estate has been a beacon in the luxury real estate market for over two decades. We are dedicated to connecting discerning clients with the world's most exceptional properties.
             </p>
             <p className="max-w-prose text-foreground/80 md:text-xl/relaxed font-body">
               Our mission is to provide a seamless and sophisticated experience, ensuring that every transaction is as flawless as the properties we represent. We believe that luxury is not just a price point, but a standard of excellence we uphold in everything we do.

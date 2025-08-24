@@ -21,7 +21,7 @@ export function Header() {
       <div className="container flex h-16 max-w-7xl items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Building className="h-6 w-6 text-primary" />
-          <span className="font-bold text-xl font-headline">Dominion Estates</span>
+          <span className="font-bold text-xl font-headline">Dominion Global Estate</span>
         </Link>
         <nav className="hidden md:flex gap-6">
           {navLinks.map((link) => (
@@ -46,7 +46,7 @@ export function Header() {
               <div className="flex flex-col p-6">
                 <Link href="/" className="mb-8 flex items-center gap-2" onClick={() => setIsSheetOpen(false)}>
                   <Building className="h-6 w-6 text-primary" />
-                  <span className="font-bold text-lg font-headline">Dominion Estates</span>
+                  <span className="font-bold text-lg font-headline">Dominion Global Estate</span>
                 </Link>
                 <nav className="flex flex-col gap-4">
                   {navLinks.map((link) => (
