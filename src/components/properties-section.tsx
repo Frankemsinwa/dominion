@@ -35,7 +35,7 @@ const properties = [
     details: '7 Beds | 8 Baths | 12,000 sqft',
     status: 'For Sale',
     image: {
-      src: 'https://placehold.co/600x400.png',
+      src: 'https://images.unsplash.com/photo-1715087444353-a214f1668ce2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxN3x8ZXN0YXRlJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzU2MDYyMjQxfDA&ixlib=rb-4.1.0&q=80&w=1080',
       hint: 'classic mansion exterior'
     }
   }
