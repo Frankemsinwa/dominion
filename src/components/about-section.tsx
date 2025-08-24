@@ -7,7 +7,7 @@ export function AboutSection() {
         <div className="grid gap-10 md:grid-cols-2 md:gap-16">
           <div className="flex justify-center">
             <Image
-              src="https://placehold.co/600x800.png"
+              src="https://images.unsplash.com/photo-1701589212546-2a1bcd94c5af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhZnJpY2ElMjByZWFsJTIwZXN0YXRlJTIwYnVpbGRlcnN8ZW58MHx8fHwxNzU2MDYxODk4fDA&ixlib=rb-4.1.0&q=80&w=1080"
               alt="Elegant real estate office interior"
               data-ai-hint="elegant real estate office"
               width={600}
