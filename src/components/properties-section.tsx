@@ -1,6 +1,9 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Whatsapp } from 'lucide-react';
 
 const properties = [
   {
@@ -55,7 +58,7 @@ export function PropertiesSection() {
         </div>
         <div className="mx-auto mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
           {properties.map((property) => (
-            <Card key={property.title} className="overflow-hidden transition-all hover:shadow-xl">
+            <Card key={property.title} className="overflow-hidden transition-all hover:shadow-xl flex flex-col">
               <CardHeader className="p-0">
                 <Image
                   src={property.image.src}
@@ -66,14 +69,22 @@ export function PropertiesSection() {
                   className="h-64 w-full object-cover"
                 />
               </CardHeader>
-              <CardContent className="p-6">
+              <CardContent className="p-6 flex-grow">
                 <CardTitle className="font-headline text-2xl">{property.title}</CardTitle>
                 <CardDescription className="font-body text-base mt-2">{property.details}</CardDescription>
               </CardContent>
-              <CardFooter className="p-6 pt-0">
+              <CardFooter className="p-6 pt-0 flex justify-between items-center">
                  <Badge variant={property.status === 'Sold' ? 'secondary' : 'default'} className={property.status !== 'Sold' ? 'bg-accent text-accent-foreground' : ''}>
                   {property.status}
                 </Badge>
+                {property.status !== 'Sold' && (
+                  <Button asChild className="bg-green-500 hover:bg-green-600 text-white">
+                    <Link href="https://wa.me/2347039595932" target="_blank">
+                      <Whatsapp className="mr-2 h-5 w-5" />
+                      Contact on WhatsApp
+                    </Link>
+                  </Button>
+                )}
               </CardFooter>
             </Card>
           ))}
