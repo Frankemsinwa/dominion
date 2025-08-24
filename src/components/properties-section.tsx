@@ -17,7 +17,7 @@ const properties = [
     details: '3 Beds | 4 Baths | 4,200 sqft',
     status: 'For Sale',
     image: {
-      src: 'https://placehold.co/600x400.png',
+      src: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxlc3RhdGV8ZW58MHx8fHwxNzU2MDYyMDI4fDA&ixlib=rb-4.1.0&q=80&w=1080',
       hint: 'modern apartment interior'
     }
   },
