@@ -7,10 +7,10 @@ export function Footer() {
       <div className="container mx-auto flex flex-col items-center justify-between gap-6 px-4 py-8 md:flex-row md:px-6">
         <div className="flex items-center gap-2">
           <Building className="h-6 w-6" />
-          <span className="font-bold text-lg font-headline">Unique Home & Properties</span>
+          <span className="font-bold text-lg font-headline">Terbanacle Consulting Ltdn</span>
         </div>
         <p className="text-sm text-primary-foreground/80 font-body">
-          © {new Date().getFullYear()} Unique Home & Properties. All rights reserved.
+          © {new Date().getFullYear()} Terbanacle Consulting Ltdn. All rights reserved.
         </p>
         <div className="flex items-center gap-4">
           <Link href="#" aria-label="Twitter">

@@ -19,7 +19,7 @@ export function HeroSection() {
           Best Property Investment Company in Lagos
         </h1>
         <p className="mt-4 max-w-2xl text-lg sm:text-xl md:text-2xl font-body">
-          Unlock prime real estate opportunities with Unique Properties. Your expert partner for property investment in Nigeria's economic hub.
+          Unlock prime real estate opportunities with Terbanacle Consulting Ltdn. Your expert partner for property investment in Nigeria's economic hub.
         </p>
         <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
           <Link href="#properties">Explore Investments</Link>

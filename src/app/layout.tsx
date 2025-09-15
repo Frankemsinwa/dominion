@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Unique Home & Properties',
+  title: 'Terbanacle Consulting Ltdn',
   description: 'Your trusted partner in Lagos property investment.',
 };
 

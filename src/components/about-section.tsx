@@ -17,11 +17,11 @@ export function AboutSection() {
           </div>
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Unique Home & Properties</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Terbanacle Consulting Ltdn</h2>
               <p className="text-primary/80 font-semibold font-headline">Our Story & Mission</p>
             </div>
             <p className="max-w-prose text-foreground/80 md:text-xl/relaxed font-body">
-              Founded on the principles of integrity, expertise, and strategic growth, Unique Home & Properties has become a leading name in Lagos property investment. We specialize in identifying high-potential real estate opportunities for our discerning clients.
+              Founded on the principles of integrity, expertise, and strategic growth, Terbanacle Consulting Ltdn has become a leading name in Lagos property investment. We specialize in identifying high-potential real estate opportunities for our discerning clients.
             </p>
             <p className="max-w-prose text-foreground/80 md:text-xl/relaxed font-body">
               Our mission is to provide a seamless and profitable investment journey, ensuring that every asset we manage is positioned for maximum returns. We believe that smart property investment is the cornerstone of building generational wealth.
