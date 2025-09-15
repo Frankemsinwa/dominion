@@ -25,7 +25,7 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="text-xl font-bold font-headline">Our Office</h3>
-                <p className="text-muted-foreground font-body">Abuja, Nigeria</p>
+                <p className="text-muted-foreground font-body">Orelope Bus-Stop, 3 Gbenle Street, Egbeda, Lagos 102213, Lagos</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -43,7 +43,7 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="text-xl font-bold font-headline">Call Us</h3>
-                <p className="text-muted-foreground font-body">+234-70-3959-5932</p>
+                <p className="text-muted-foreground font-body">+2348058192207</p>
               </div>
             </div>
           </div>
