@@ -96,7 +96,7 @@ export function PropertiesSection() {
                 </Badge>
                 {property.status !== 'Sold' && (
                   <Button asChild className="bg-green-500 hover:bg-green-600 text-white">
-                    <Link href="https://wa.me/2348058192207" target="_blank">
+                    <Link href="https://wa.me/2347071958762" target="_blank">
                       <WhatsappIcon className="mr-2 h-5 w-5" />
                       Contact on WhatsApp
                     </Link>
