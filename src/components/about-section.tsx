@@ -8,7 +8,7 @@ export function AboutSection() {
           <div className="flex justify-center">
             <Image
               src="https://images.unsplash.com/photo-1701589212546-2a1bcd94c5af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhZnJpY2ElMjByZWFsJTIwZXN0YXRlJTIwYnVpbGRlcnN8ZW58MHx8fHwxNzU2MDYxODk4fDA&ixlib=rb-4.1.0&q=80&w=1080"
-              alt="Elegant real estate office interior"
+              alt="Modern office for a property investment company"
               data-ai-hint="elegant real estate office"
               width={600}
               height={800}
@@ -17,14 +17,14 @@ export function AboutSection() {
           </div>
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Dominion Global Estate</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Unique Home & Properties</h2>
               <p className="text-primary/80 font-semibold font-headline">Our Story & Mission</p>
             </div>
             <p className="max-w-prose text-foreground/80 md:text-xl/relaxed font-body">
-              Founded on the principles of integrity, expertise, and unparalleled service, Dominion Global Estate has been a beacon in the luxury real estate market for over two decades. We are dedicated to connecting discerning clients with the world's most exceptional properties.
+              Founded on the principles of integrity, expertise, and strategic growth, Unique Home & Properties has become a leading name in Lagos property investment. We specialize in identifying high-potential real estate opportunities for our discerning clients.
             </p>
             <p className="max-w-prose text-foreground/80 md:text-xl/relaxed font-body">
-              Our mission is to provide a seamless and sophisticated experience, ensuring that every transaction is as flawless as the properties we represent. We believe that luxury is not just a price point, but a standard of excellence we uphold in everything we do.
+              Our mission is to provide a seamless and profitable investment journey, ensuring that every asset we manage is positioned for maximum returns. We believe that smart property investment is the cornerstone of building generational wealth.
             </p>
           </div>
         </div>

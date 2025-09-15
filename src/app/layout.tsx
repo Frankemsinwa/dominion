@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Dominion Global Estate',
-  description: 'Luxury real estate by Dominion Global Estate',
+  title: 'Unique Home & Properties',
+  description: 'Your trusted partner in Lagos property investment.',
 };
 
 export default function RootLayout({

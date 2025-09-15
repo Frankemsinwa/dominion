@@ -7,7 +7,7 @@ const testimonials = [
     name: 'The Chen Family',
     avatar: 'https://placehold.co/100x100.png',
     avatarHint: 'asian family portrait',
-    quote: "Global Dominion Realty handled the sale of our home with utmost professionalism and discretion. Their market knowledge is second to none."
+    quote: "Unique Properties handled our investment with utmost professionalism. Their market knowledge of Lagos is second to none."
   },
   {
     name: 'Mr. Sterling',
@@ -19,7 +19,7 @@ const testimonials = [
     name: 'Dr. Isabella Rossi',
     avatar: 'https://placehold.co/100x100.png',
     avatarHint: 'professional woman portrait',
-    quote: "Finding our dream home felt effortless with their help. The attention to detail and personalized service was remarkable."
+    quote: "Finding the right investment property felt effortless with their help. The attention to detail and personalized service was remarkable."
   }
 ]
 
@@ -29,9 +29,9 @@ export function TestimonialsSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">What Our Clients Say</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">What Our Investors Say</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
-              Our reputation is built on the trust and satisfaction of the families and individuals we serve.
+              Our reputation is built on the trust and success of the clients we serve.
             </p>
           </div>
         </div>
